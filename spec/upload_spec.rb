@@ -1,6 +1,6 @@
 describe 'Botões de radio', :upload do
     before(:each) do
-        visit 'https://training-wheels-protocol.herokuapp.com/upload'
+        visit '/upload'
         @arquivo =  Dir.pwd + '/spec/fixtures/teste.txt'
         @imagem =   Dir.pwd + '/spec/fixtures/EV1.png'
 
